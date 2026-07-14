@@ -1,0 +1,17 @@
+{
+  "name": "csv-viewer",
+  "version": "1.0.0",
+  "protocol": 1,
+  "description": "Render CSV/TSV files as an aligned table instead of raw text.",
+  "exec": ["python3", "./csv_viewer.py"],
+  "capabilities": {
+    "viewer": {
+      "extensions": ["csv", "tsv"],
+      "priority": 40
+    }
+  },
+  "platforms": ["macos", "linux", "windows"],
+  "publisher": "Commander Community",
+  "homepage": "https://github.com/enverbisevac/commander-plugin-csv-viewer",
+  "license": "MIT"
+}
